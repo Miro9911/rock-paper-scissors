@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background-color: black;
+    height: 100vh;
+}
+
+.introduction {
+    height: 80px;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.container {
+    height: 240px;
+    margin-top: 60px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.item {
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+button {
+    border-radius: 12px;
+    width: 125px;
+}
+
+.item img {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.instructin {
+    padding-left: 450px;
+}
+
+.choice {
+    text-align: center;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.tide {
+    animation-duration: 0.7s;
+}
